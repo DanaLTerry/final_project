@@ -1,0 +1,220 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *
+ *
+ */
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+* { 
+    box-sizing: border-box; 
+    margin:0;
+    display: inline-block;
+    
+  } 
+
+.navbar{
+    background-color: #71C8BD!important;
+}
+
+.nav_img{
+    height: 50px !important;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.link:hover {
+    text-decoration: none;
+    color: #ff5252;
+    font-weight: bold;
+}
+
+
+ 
+
+.logo {
+      float: center!important;
+      width: 700px!important;
+      margin-right: 0px;
+      margin-left: 50px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+  }
+
+.buttons{
+    margin-top: 350px;
+    margin-right: 0px;
+    margin-left: 0px;
+    color: #000000;
+    width: 60px;
+    height: 20px;
+    
+}
+
+  .btn-login{
+    columns: #000000;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 3rem;
+    letter-spacing: .1rem;
+//     margin-bottom: 2rem;
+    font-family: Open Sans;
+    color: #000000
+  }
+  .btn-register{
+    color:#000000;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 3rem;
+    letter-spacing: .1rem;
+//     margin-bottom: 2rem;
+    font-family: Open Sans;
+    color: #000000
+  }
+  .btn-blue{
+    background-color: #71C8BD;
+    padding: 2rem 7rem;
+  }
+
+  .btn-purple{
+    background-color: #978EC4;
+    padding: 1.5rem 6.5rem;
+  }
+
+  .hometext{
+      color: #000000;
+      font-family: Open Sans !important;
+      font-size: 18px; 
+      text-align: justify!important;
+      line-height: 2.5rem!important;
+      margin-left: 60px!important;
+      margin-right: 60px!important;
+      margin-top: 150px!important;
+  }
+  
+ .dashboardtext{
+      color: #000000;
+      font-family: Open Sans !important;
+      font-size: 18px; 
+      text-align: justify!important;
+      line-height: 2.5rem!important;
+      margin-left: 60px!important;
+      margin-right: 120px!important;
+      margin-top: 150px!important;
+  }
+  
+
+.title{
+    align: center;
+    margin-left: 65px;
+}
+
+.box{
+    background-color:#978EC4;
+    padding: .5rem 16rem;
+}
+
+.innerbox{
+    background-color:#C8C8C8;
+    padding:  .5rem 18.5rem;
+}
+  
+.box2{
+    background-color:#71C8BD;
+    padding: .5rem 20rem;
+}
+
+.innerbox2{
+    background-color:#C8C8C8;
+    padding:  .5rem 22.8rem;
+}
+  
+
+.box3{
+    background-color:#978EC4;
+    padding: .5rem 17.5rem;
+}
+
+.innerbox3{
+    background-color:#C8C8C8;
+    padding:  .5rem 15.2rem;
+}
+  
+
+.box4{
+    background-color:#71C8BD;
+    padding: .5rem 20rem;
+}
+
+.innerbox4{
+    background-color:#C8C8C8;
+    padding:  .5rem 16rem;
+}
+  
+
+.box5{
+    background-color:#978EC4;
+    padding: .5rem 14rem;
+}
+
+.innerbox5{
+    background-color:#C8C8C8;
+    padding:  .5rem 15.2rem;
+}
+  
+
+  .copyright{
+    color: #000000!important;
+    font-family: Open Sans !important;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 400px;
+    font-size: 10x!important; 
+  }
+
+  /* code for all programs */
+  .pagetitle{
+    text-align: center!important;
+    color: #000000;
+    font-family: Amatic SC !important;
+    margin-top: 150px;
+  }
+  
+  /* 'Meet Our Team' Headshots */
+  .dana-headshot {
+    float: left;
+    margin-right: 20px;
+    align: middle;
+    width: 200px;
+  }
+
+  .arisa-headshot {
+    float: left;
+    margin-right: 20px;
+    align: middle;
+    width: 200px;
+  }
+
+  .chris-headshot {
+    float: left;
+    margin-right: 20px;
+    align: middle;
+    width: 200px;
+  }
+
+  
+  

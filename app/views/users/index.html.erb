@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+<% if user_signed_in? %>
+    <%= link_to "Log out", destroy_user_session_path, method: :delete %> 
+<% else %> 
+    <%= link_to "Sign In", new_user_registration_path %>
+<% end %>
+
+<h1>Users</h1>
+  
+
+
+<!-- <table>
+  <thead>
+    <tr>
+      <th colspan="3"></th>
+    </tr>
+  </thead> -->
+
+<!--   <tbody> -->
+      <div>
+          <%= if current_user.teacher? %>
+            <% @users.each do |user| %>
+              <div>
+                 <h1><%= user.email %></h1>
+                 <p><strong>GitHub Profile</strong> | <%= user.gh_user_name %></p>
+                 <p><strong>User Type</strong> | <%= user.role %></p>
+                 <p><%= link_to 'Show', user, class: "nasty-link" %> | 
+                    <%= link_to 'Edit', edit_user_registration_path(user), class: 'nasty-link' %></p>
+              </div>
+           
+            <% end %>
+          <% else %>
+         <h1>Students are not auuthorized to see this page! Please go <%= link_to "New User", new_user_registration_path, class: "nasty-link" %></h1>
+<!-- </table> -->
+
+<br>
+<%= link_to 'Home', root_path, class: "nasty-link" %>
+<%= link_to 'New User', new_user_registration_path, class: "nasty-link" %>
+
